@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.pagemem",
+  "displayName": "Page Memory",
+  "version": "0.1.0",
+  "apiVersion": "1.0.93",
+  "minApiVersion": "1.0.93",
+  "minBossVersion": "9.4.2",
+  "mainClass": "ai.rever.boss.plugin.dynamic.pagemem.PageMemoryDynamicPlugin",
+  "type": "mixed",
+  "description": "Persistent, URL-keyed memory for pages the user reads in BOSS - notes, tags, related URLs, and cross-plugin references",
+  "author": "Choksi",
+  "url": "https://github.com/choksi2212/boss-plugin-page-memory",
+  "panel": { "position": "left_bottom", "priority": 68 },
+  "sandbox": {
+    "maxThreads": 4,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  },
+  "isolationMode": "out-of-process",
+  "fallback": "in-process"
+}
