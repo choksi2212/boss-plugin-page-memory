@@ -10,7 +10,7 @@ plugins {
 group = "ai.rever.boss.plugin.dynamic"
 // 0.1.0: persistent, URL-keyed memory for pages the user reads in BOSS.
 // Notes, tags, related URLs and cross-plugin references per URL.
-version = "0.1.0"
+version = "0.1.1"
 
 // CI sets CI=true and downloads the api jar; locally we use the sibling boss-plugin-api build.
 val useLocalDependencies = System.getenv("CI") != "true"
