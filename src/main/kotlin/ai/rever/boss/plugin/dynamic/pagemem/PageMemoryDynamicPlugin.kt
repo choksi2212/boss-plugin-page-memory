@@ -23,7 +23,7 @@ class PageMemoryDynamicPlugin : DynamicPlugin {
     override val version: String = manifestVersion()
     override val description: String =
         "Persistent, URL-keyed memory for pages the user reads in BOSS - notes, tags, related URLs, and cross-plugin references"
-    override val author: String = "Choksi"
+    override val author: String = "choksi2212"
     override val url: String = "https://github.com/choksi2212/boss-plugin-page-memory"
 
     private var store: PageMemoryStore? = null
